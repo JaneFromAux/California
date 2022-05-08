@@ -1,0 +1,21 @@
+@mixin flexit($justi, $align) {
+    display: flex;
+    justify-content: $justi;
+    align-items: $align;
+    flex-wrap: wrap;
+}
+
+@mixin h4($letter) {
+    font-size: 2.1rem;
+    font-family: Lari;
+    font-weight: 400;
+    letter-spacing: $letter;
+
+}
+
+@mixin h2($letter) {
+    font-size: 9.5rem;
+    font-family: Lari;
+    font-weight: 400;
+    letter-spacing: $letter;
+}

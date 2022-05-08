@@ -1,3 +1,594 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@font-face {
+  font-family: Lari;
+  src: url(../fonts/LarishNeueSemibold.woff);
+}
+header {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 9%;
+  background-color: #000;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 36vh;
+  padding-bottom: 11vh;
+}
+header div article {
+  width: 50%;
+}
+header div article:nth-of-type(2) {
+  height: 100%;
+  width: 50%;
+  border-left: 1px solid #fff;
+}
+header h4 {
+  font-size: 1.8rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  letter-spacing: -1px;
+  color: #fff;
+}
+header h4:last-of-type {
+  padding-top: 5vh;
+}
+header h2 {
+  font-size: 9.5rem;
+  color: #fff;
+}
+header h1 {
+  line-height: 3.5rem;
+  font-size: 9.5rem;
+  color: 0;
+  font-family: Lari;
+  -webkit-text-stroke: 2px #fff;
+}
+header section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 5vh;
+  padding-top: 21vh;
+}
+header section img {
+  width: 70px;
+}
+header section a {
+  color: #fff;
+  font-size: 2.1rem;
+  border: 2px solid #fff;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+header section a:hover {
+  color: #000;
+  background: #fff;
+}
+header .articleHeader {
+  padding: 16vh 5vw 0 0;
+  font-size: 11rem;
+  font-family: Lari;
+}
+
+main .numbersMain {
+  color: #fff;
+  background: url("../img/map.svg") right/40% no-repeat;
+  background-color: #000;
+  display: block;
+  padding-left: 9%;
+  padding-top: 16vh;
+  font-family: Lari;
+}
+main .numbersMain h2 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+}
+main .numbersMain h4 {
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  padding-top: 6vh;
+}
+main section {
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+main section div:nth-of-type(1) {
+  background: #000;
+  height: 20vh;
+}
+main section div:nth-of-type(2) {
+  width: 35%;
+  height: 30vh;
+  margin: auto;
+  padding-top: 50vh;
+  padding-bottom: 135vh;
+}
+main section div:nth-of-type(2) h2 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  line-height: 9rem;
+  letter-spacing: -2px;
+}
+main section div:nth-of-type(2) h4 {
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  padding-top: 4vh;
+  line-height: 3.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: -1px;
+  word-spacing: 1px;
+  font-weight: 500;
+}
+main section img {
+  position: absolute;
+  width: 355px;
+}
+main section img:nth-of-type(1) {
+  top: 9vh;
+  left: 70vw;
+}
+main section img:nth-of-type(2) {
+  width: 290px;
+  top: 50vh;
+  left: 8vw;
+}
+main section img:nth-of-type(3) {
+  width: 290px;
+  top: 107vh;
+  left: 80vw;
+}
+main section img:nth-of-type(4) {
+  top: 132vh;
+  left: 17vw;
+}
+main section img:nth-of-type(5) {
+  top: 158vh;
+  left: 60.72vw;
+}
+main .ourTshirts {
+  position: relative;
+}
+main .ourTshirts h4 {
+  margin: auto;
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  width: 43%;
+  line-height: 3.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.9rem;
+  letter-spacing: -1px;
+  word-spacing: 1px;
+  font-weight: 500;
+  padding-left: 7vw;
+  padding-bottom: 40vh;
+}
+main .ourTshirts img {
+  position: absolute;
+  width: 300px;
+  top: -8vh;
+  left: 0;
+}
+main .ourTshirts img:nth-of-type(2) {
+  width: 470px;
+  top: 36vh;
+  left: 45vw;
+  z-index: 5;
+}
+main .theGoldenBear {
+  background: #000;
+  z-index: 4;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 25vh;
+  padding-bottom: 100vh;
+  position: relative;
+}
+main .theGoldenBear div {
+  width: 35%;
+  padding-left: 9%;
+}
+main .theGoldenBear div h4 {
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 5vh;
+  font-weight: 400;
+}
+main .theGoldenBear div h2 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-family: Lari;
+  line-height: 8.8rem;
+}
+main .theGoldenBear article {
+  width: 55%;
+  padding-left: 10vh;
+  padding-right: 9%;
+}
+main .theGoldenBear article h5 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-size: 3rem;
+}
+main .theGoldenBear article h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Work Sans";
+  width: 100%;
+  padding-top: 2vh;
+}
+main .theGoldenBear img {
+  position: absolute;
+  top: 86vh;
+  left: 8vw;
+  width: 54%;
+  z-index: 2;
+}
+main .theGoldenBear img:nth-of-type(2) {
+  position: absolute;
+  top: 107vh;
+  left: 58vw;
+  width: 28vw;
+  z-index: 3;
+}
+main .thePoppyBear {
+  background: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30vh;
+  padding-bottom: 135vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+main .thePoppyBear .poppyImg {
+  position: absolute;
+  top: -18vh;
+  left: 77vw;
+  z-index: 1;
+  width: 60vh;
+  animation-duration: 25s;
+  animation-name: round;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+main .thePoppyBear .poppyDiv {
+  background: #fff;
+  width: 35%;
+  padding-left: 9%;
+}
+main .thePoppyBear .poppyDiv h4 {
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 5vh;
+  font-weight: 400;
+}
+main .thePoppyBear .poppyDiv h2 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-family: Lari;
+  line-height: 8.8rem;
+}
+main .thePoppyBear article {
+  width: 55%;
+  padding-left: 10vh;
+  padding-right: 9%;
+}
+main .thePoppyBear article h5 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-size: 3rem;
+  padding-top: 27vh;
+}
+main .thePoppyBear article h4 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Work Sans";
+  width: 100%;
+  padding-top: 2vh;
+  font-weight: 400;
+}
+main .thePoppyBear .poppyImg2 {
+  position: absolute;
+  width: 54%;
+  z-index: 2;
+  top: 108vh;
+  left: 38vw;
+}
+main .thePoppyBear .poppyImg2:nth-of-type(2) {
+  position: absolute;
+  top: 128vh;
+  left: 14.8vw;
+  width: 28vw;
+  z-index: 3;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 0.5vh;
+  padding-left: 9%;
+  padding-right: 9%;
+  position: relative;
+  overflow: hidden;
+}
+footer .banderole {
+  color: black;
+  background: white;
+  border: 1px solid black;
+  font-size: 7.5rem;
+  width: 370%;
+  height: 8vh;
+  position: absolute;
+  top: 98vh;
+  left: -80vw;
+  z-index: 1;
+  transform: rotate(45deg);
+}
+footer .banderole h2 {
+  color: black;
+  background: white;
+  display: inline-block;
+  animation-name: banderole;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+footer .banderole span {
+  line-height: 3.5rem;
+  font-size: 10.5rem;
+  color: #fff;
+  font-family: Lari;
+  -webkit-text-stroke: 2px #000;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer div section {
+  width: 44%;
+}
+footer div section h4 {
+  font-size: 2.1rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  padding-bottom: 4vh;
+  font-family: "Work Sans";
+}
+footer div section h5 {
+  font-size: 9.5rem;
+  font-family: Lari;
+  font-weight: 400;
+  letter-spacing: "";
+  font-size: 3.5rem;
+  line-height: 5.5rem;
+  padding-bottom: 8vh;
+}
+footer div section .button {
+  color: #fff;
+  font-size: 2.1rem;
+  border: 2px solid #fff;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+footer div section .button:hover {
+  color: #000;
+  background: #fff;
+}
+footer div div {
+  width: 52%;
+  height: 100vh;
+}
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
+}
+footer nav ul {
+  list-style: none;
+  padding-bottom: 3vh;
+  line-height: 4rem;
+}
+footer nav ul li {
+  color: white;
+  font-family: "Work Sans";
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+footer nav ul li img {
+  width: 25px;
+  margin-right: 7px;
+}
+footer nav div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+footer nav div img {
+  width: 5vw;
+  margin-left: 1vw;
+}
+
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359.9deg);
+  }
+}
+@keyframes banderole {
+  0%, 100% {
+    transform: translate(100px, -50px);
+  }
+  50% {
+    transform: translate(1200px, -50px);
+  }
+}
+@media only screen and (max-width: 768px) {
+  main section:nth-of-type(2) {
+    overflow: hidden;
+  }
+  main img:nth-of-type(1) {
+    top: 9vh;
+    left: 54vw;
+  }
+  main img:nth-of-type(2) {
+    width: 290px;
+    top: 30vh;
+    left: 8vw;
+  }
+  main img:nth-of-type(3) {
+    width: 290px;
+    top: 45vh;
+    left: 50vw;
+  }
+  main img:nth-of-type(4) {
+    top: 135vh;
+    left: 3vw;
+  }
+  main img:nth-of-type(5) {
+    top: 158vh;
+    left: 51vw;
+  }
+  main .ourTshirts img {
+    position: absolute;
+    width: 300px;
+    top: -35vh;
+    left: 7vh;
+  }
+  main .ourTshirts img:nth-of-type(2) {
+    width: 470px;
+    top: 53vh;
+    left: 10vw;
+    z-index: 5;
+  }
+  main .theGoldenBear {
+    padding-top: 3vh;
+    padding-bottom: 45vh;
+  }
+  main .theGoldenBear article {
+    padding-top: 20vh;
+  }
+  main .theGoldenBear img {
+    position: absolute;
+    top: 101vh;
+    left: 8vw;
+    width: 54%;
+    z-index: 2;
+  }
+  main .theGoldenBear img:nth-of-type(2) {
+    position: absolute;
+    top: 122vh;
+    left: 58vw;
+    width: 28vw;
+    z-index: 3;
+  }
+  main .thePoppyBear {
+    padding-bottom: 85vh;
+  }
+  main .thePoppyBear .poppyImg {
+    position: absolute;
+    top: 8vh;
+    left: 1vw;
+    z-index: 1;
+    width: 60vh;
+    animation-duration: 25s;
+    animation-name: round;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  main .thePoppyBear .poppyImg2 {
+    position: absolute;
+    width: 54%;
+    z-index: 2;
+    top: 128vh;
+    left: 34vw;
+  }
+  main .thePoppyBear .poppyImg2:nth-of-type(2) {
+    position: absolute;
+    top: 152vh;
+    left: 10vw;
+    width: 28vw;
+    z-index: 3;
+  }
+
+  footer {
+    padding-top: 20vh;
+  }
+  footer .banderole {
+    color: black;
+    background: white;
+    border: 1px solid black;
+    font-size: 7.5rem;
+    width: 590%;
+    height: 8vh;
+    position: absolute;
+    top: 68vh;
+    left: -190vw;
+    z-index: 1;
+    transform: rotate(45deg);
+  }
+  footer nav {
+    padding-top: 15vh;
+  }
+  footer nav div img {
+    width: 20vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
