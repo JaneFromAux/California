@@ -65,8 +65,7 @@ header section {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 5vh;
-  padding-top: 21vh;
+  padding: 21vh 0 5vh 0;
 }
 header section img {
   width: 70px;
@@ -93,8 +92,7 @@ main .numbersMain {
   background: url("../img/map.svg") right/40% no-repeat;
   background-color: #000;
   display: block;
-  padding-left: 9%;
-  padding-top: 16vh;
+  padding: 16vh 0 0 9%;
   font-family: Lari;
 }
 main .numbersMain h2 {
@@ -123,8 +121,7 @@ main section div:nth-of-type(2) {
   width: 35%;
   height: 30vh;
   margin: auto;
-  padding-top: 50vh;
-  padding-bottom: 135vh;
+  padding: 50vh 0 135vh 0;
 }
 main section div:nth-of-type(2) h2 {
   font-size: 9.5rem;
@@ -189,8 +186,7 @@ main .ourTshirts h4 {
   letter-spacing: -1px;
   word-spacing: 1px;
   font-weight: 500;
-  padding-left: 7vw;
-  padding-bottom: 40vh;
+  padding: 0 0 40vh 7vw;
 }
 main .ourTshirts img {
   position: absolute;
@@ -212,8 +208,7 @@ main .theGoldenBear {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 25vh;
-  padding-bottom: 100vh;
+  padding: 25vh 0 100vh 0;
   position: relative;
 }
 main .theGoldenBear div {
@@ -239,8 +234,7 @@ main .theGoldenBear div h2 {
 }
 main .theGoldenBear article {
   width: 55%;
-  padding-left: 10vh;
-  padding-right: 9%;
+  padding: 0 9% 0 10vh;
 }
 main .theGoldenBear article h5 {
   font-size: 9.5rem;
@@ -277,8 +271,7 @@ main .thePoppyBear {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-top: 30vh;
-  padding-bottom: 135vh;
+  padding: 30vh 0 135vh 0;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -318,8 +311,7 @@ main .thePoppyBear .poppyDiv h2 {
 }
 main .thePoppyBear article {
   width: 55%;
-  padding-left: 10vh;
-  padding-right: 9%;
+  padding: 0 9% 0 10vh;
 }
 main .thePoppyBear article h5 {
   font-size: 9.5rem;
@@ -355,9 +347,7 @@ main .thePoppyBear .poppyImg2:nth-of-type(2) {
 footer {
   background-color: black;
   color: white;
-  padding-top: 0.5vh;
-  padding-left: 9%;
-  padding-right: 9%;
+  padding: 0.5vh 9% 0 9%;
   position: relative;
   overflow: hidden;
 }
@@ -518,8 +508,7 @@ footer nav div img {
     z-index: 5;
   }
   main .theGoldenBear {
-    padding-top: 3vh;
-    padding-bottom: 45vh;
+    padding: 3vh 0 45vh 0;
   }
   main .theGoldenBear article {
     padding-top: 20vh;
